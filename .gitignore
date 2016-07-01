@@ -8,6 +8,7 @@
 # Chef Cookbooks
 /cookbooks/*
 !/cookbooks/chefignore
+!/cookbooks/README.md
 
 # Chef Environments
 /environments/*.json
