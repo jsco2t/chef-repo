@@ -2,7 +2,7 @@ This directory contains the cookbooks used to configure systems in your infrastr
 
 Knife needs to be configured to know where the cookbooks are located with the `cookbook_path` setting. If this is not set, then several cookbook operations will fail to work properly.
 
-    cookbook_path ["./cookbooks"]
+    cookbook_path ["./cookbooks"] 
 
 This setting tells knife to look for the cookbooks directory in the present working directory. This means the knife cookbook subcommands need to be run in the `chef-repo` directory itself. To make sure that the cookbooks can be found elsewhere inside the repository, use an absolute path. This is a Ruby file, so something like the following can be used:
 
